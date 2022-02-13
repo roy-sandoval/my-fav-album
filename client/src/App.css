@@ -1,0 +1,94 @@
+.mainContainer {
+	width: 100%;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.flex-split {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+button,
+.button {
+	background-color: #100f14;
+	color: #f1f1f1;
+	font-family: "PP Pangram Sans", sans-serif;
+	border-radius: 100vw;
+	border: #100f14 1px solid;
+	padding: 1.32vw 2.65vw;
+	font-size: 1.2em;
+	text-decoration: none;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.button.white {
+	background: #f1f1f1;
+	color: #100f14;
+}
+
+.button-bg {
+	position: absolute;
+	z-index: 2;
+	height: 200%;
+	top: -20%;
+	left: -10%;
+	width: 0%;
+	transform-origin: bottom left;
+	border-radius: 100vw;
+	background-color: #ade920;
+}
+
+.button span {
+	position: relative;
+	z-index: 3;
+}
+
+.spacer-1em {
+	width: 100%;
+	height: 1em;
+}
+
+.btn-wrapper {
+	flex: none;
+}
+
+h2 {
+	font-size: 4.58em;
+	font-weight: 400;
+	line-height: 120%;
+	letter-spacing: -0.01em;
+}
+
+.div-hide {
+	overflow: hidden;
+}
+
+.modal {
+	background: #100f14;
+	padding: 3.61em 4.44em;
+	color: #f1f1f1;
+	max-width: 35vw;
+	border-radius: 0.83vw;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.modal button {
+	background: #f1f1f1;
+	color: #100f14;
+}
+
+.modal p {
+	margin: 0.5em 0em 4em;
+}

@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "PP Pangram Sans";
+	src: url(./fonts/PPPangramSans-Medium.woff2) format("woff2");
+}
+
+body {
+	margin: 0;
+	font-family: "PP Pangram Sans", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 1vw;
+	background: #f1f1f1;
+	color: #100f14;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}

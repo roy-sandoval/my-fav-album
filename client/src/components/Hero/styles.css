@@ -1,0 +1,66 @@
+.hero {
+	padding: 9.26em 0;
+	width: 100%;
+}
+
+.hero-description {
+	font-size: 1.2em;
+}
+
+h1 {
+	font-size: 8.73em;
+	font-weight: 400;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+}
+
+.hero-content-wrapper {
+	margin-bottom: 5em;
+}
+
+form {
+	display: flex;
+	align-items: flex-end;
+}
+
+.form-field-wrapper {
+	position: relative;
+}
+
+label {
+	position: absolute;
+	top: 0;
+	font-size: 1.67em;
+	line-height: 150%;
+	pointer-events: none;
+	z-index: 10;
+	transform-origin: top left;
+	transition: transform 150ms ease-out, font-size 150ms ease-out;
+}
+
+.active {
+	transform: translateY(-125%);
+	font-size: 1.25em;
+}
+
+.form-field-wrapper:focus-within label {
+	transform: translateY(-125%);
+	font-size: 1.25em;
+}
+
+.form-input {
+	position: relative;
+	border: none;
+	border-bottom: solid 1px #100f14;
+	background: none;
+	margin-right: 1em;
+	font-size: 1.67em;
+	padding: 0.5em 0;
+	width: 24em;
+	line-height: 100%;
+	font-family: "PP Pangram Sans", sans-serif;
+}
+
+.hero-heading {
+	overflow: hidden;
+}
