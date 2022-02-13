@@ -5,6 +5,7 @@
 
 .hero-description {
 	font-size: 1.2em;
+	margin-bottom: 0.5em;
 }
 
 h1 {
@@ -63,4 +64,8 @@ label {
 
 .hero-heading {
 	overflow: hidden;
+}
+
+.inline-link {
+	color: #100f14;
 }

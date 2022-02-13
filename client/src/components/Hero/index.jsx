@@ -30,6 +30,7 @@ export default function Hero(props){
       <div className="container">
         <div className="hero-content-wrapper">
           <p className="hero-description">This is just a fun project I made while learning Solidity on buildspace✌️</p>
+          <p className="hero-description">It's running on the Rinkeby testnet. Use a <a className="inline-link" href="https://app.mycrypto.com/faucet" target="_blank" rel="noopener noreferrer">faucet</a> to get some test ETH and use the app.</p>
           <div className="spacer-1em"> </div>
           <div className="div-hide">
             <h1 className="hero-heading">Hi what’s your</h1>
